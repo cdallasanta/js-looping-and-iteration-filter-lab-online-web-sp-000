@@ -8,5 +8,5 @@ function fuzzyMatch(driversArr, str) {
 };
 
 function matchName(driversArr, str) {
-  driversArr.filter(driver => driver.name.toLowerCase() === str.toLowerCase());
+  driversArr.filter(driver => driver.name === str);
 };

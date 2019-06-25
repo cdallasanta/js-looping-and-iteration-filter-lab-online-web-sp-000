@@ -1,6 +1,5 @@
 // Code your solution in this file
 function findMatching(driversArr, str) {
-  debugger;
   driversArr.filter(driver => driver.toLowerCase() === str.toLowerCase());
 };
 

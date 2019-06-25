@@ -6,3 +6,7 @@ function findMatching(driversArr, str) {
 function fuzzyMatch(driversArr, str) {
   driversArr.filter(driver => driver.toLowerCase() === str[0].toLowerCase());
 };
+
+function matchName(driversArr, str) {
+  driversArr.filter(driver => driver.name.toLowerCase() === str.toLowerCase());
+};
